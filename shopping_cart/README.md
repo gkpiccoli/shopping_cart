@@ -2,6 +2,12 @@
 
 A new Flutter project.
 
+Add this dependencies on pubspec.yaml:
+
+    get:
+    cloud_firestore:
+    firebase_core:
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
