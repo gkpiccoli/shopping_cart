@@ -1,6 +1,14 @@
 import 'package:flutter/cupertino.dart';
 
-void main(List<String> args) {
-  runApp(app);
-  
+void main() {
+  runApp();
+}
+
+class TelaCatalogo extends StatelessWidget {
+  const TelaCatalogo({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
 }
