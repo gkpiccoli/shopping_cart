@@ -1,8 +1,4 @@
-import 'package:flutter/cupertino.dart';
-
-void main() {
-  runApp();
-}
+import 'package:flutter/material.dart';
 
 class TelaCatalogo extends StatelessWidget {
   const TelaCatalogo({super.key});
@@ -12,12 +8,17 @@ class TelaCatalogo extends StatelessWidget {
     return Container();
   }
 }
+
 class CatalogoDeProdutos extends StatelessWidget {
   const CatalogoDeProdutos({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Catálogo'),
+      ),
+    );
   }
 }
 
