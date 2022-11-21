@@ -12,3 +12,20 @@ class TelaCatalogo extends StatelessWidget {
     return Container();
   }
 }
+class CatalogoDeProdutos extends StatelessWidget {
+  const CatalogoDeProdutos({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
+}
+
+class CartaoCatalogo extends StatelessWidget {
+  const CartaoCatalogo({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
+}

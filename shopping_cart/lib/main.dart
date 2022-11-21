@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:shopping_cart/telas/tela_catalogo.dart';
 
 void main() {
   runApp(const GetMaterialApp(home: MeuApp()));
@@ -14,7 +15,7 @@ class MeuApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Text('agua'),
+      home: const TelaCatalogo(),
     );
   }
 }
