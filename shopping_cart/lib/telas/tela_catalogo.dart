@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class TelaCatalogo extends StatelessWidget {
   const TelaCatalogo({super.key});
@@ -9,24 +10,20 @@ class TelaCatalogo extends StatelessWidget {
   }
 }
 
-class CatalogoDeProdutos extends StatelessWidget {
-  const CatalogoDeProdutos({super.key});
+class CatalogoProdutos extends StatelessWidget {
+  const CatalogoProdutos({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Catálogo'),
-      ),
+      appBar: AppBar(title: const Text('Catálogo')),
+      body: SafeArea(
+          child: Column(
+        children: [
+          const CatalogoProdutos(),
+          ElevatedButton(onPressed: () => Get.to(() => TelaCatalogo()), child: const Text('Voltar ao Carrinho'))
+        ],
+      )),
     );
-  }
-}
-
-class CartaoCatalogo extends StatelessWidget {
-  const CartaoCatalogo({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Container();
   }
 }
