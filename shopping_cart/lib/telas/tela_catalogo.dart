@@ -1,17 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+import '../widgets/catalogo_produtos.dart';
+
 class TelaCatalogo extends StatelessWidget {
   const TelaCatalogo({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Container();
-  }
-}
-
-class CatalogoProdutos extends StatelessWidget {
-  const CatalogoProdutos({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -27,3 +20,4 @@ class CatalogoProdutos extends StatelessWidget {
     );
   }
 }
+

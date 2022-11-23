@@ -7,7 +7,7 @@ class Produto {
       {required this.nome, required this.preco, required this.urlImagem});
 }
 
-const List<Produto> produtos = [
+ const List<Produto> produtos = [
   Produto(
       nome: 'Água',
       preco: 1.99,

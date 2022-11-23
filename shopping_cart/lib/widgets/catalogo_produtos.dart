@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:shopping_cart/modelos/modelo_produto.dart';
 
-class CatalogoDeProdutos extends StatelessWidget {
-  const CatalogoDeProdutos({super.key});
+class CatalogoProdutos extends StatelessWidget {
+  const CatalogoProdutos({super.key});
 
   @override
   Widget build(BuildContext context) {
