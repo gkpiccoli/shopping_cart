@@ -1,6 +1,6 @@
 # shopping_cart
 
-A new Flutter project.
+A new Flutter project, shopping cart add and remove intems.
 
 Add this dependencies on pubspec.yaml:
 
