@@ -16,7 +16,7 @@ class CatalogoDeProdutos extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Catálogo'),
+        title: const Text('Catálogo'),
       ),
     );
   }
@@ -27,8 +27,6 @@ class CartaoCatalogo extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Text('agua'),
-    );
+    return Container();
   }
 }
